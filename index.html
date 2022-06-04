@@ -374,15 +374,25 @@
             <label for="mail" class="text">Подпишитесь на рассылку</label>
             <input type="mail" name="mail" id="mail" placeholder="E-mail" />
           </div>
-          <button type="submit" class="button-form">Подписаться</button>
+          <button type="submit" class="button-form">
+            Подписаться
+              <svg class="icon-form" width="24" height="24">
+              <use href="./images/icons.svg/modal.svg#icon-icon-send"></use>
+            </svg>
+          </button>
         </div>
       </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button data-modal-close>Закрыть</button>
+        <button class="modal-btn-close" data-modal-close>
+          <svg class="modal-icon-close" width="20" height="20">
+          <use href="./images/icons.svg/modal.svg#icon-close-black"></use>
+        </svg>
       </div>
     </div>
+  </button>
+        
     <script src="./JS/modal.js"></script>
   </body>
 </html>
