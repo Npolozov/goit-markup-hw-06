@@ -945,6 +945,13 @@ label.text {
   background-repeat: no-repeat;
 }
 
+.checkbox:focus + .icon-checkbox {
+  border-color: var(--accent-color);
+}
+
+.checkbox:checked:focus + .icon-checkbox {
+  background-image: url(../images/icons.svg/icon\ check.svg);
+}
 .checkbox-text {
   font-weight: 400;
   font-size: 14px;
